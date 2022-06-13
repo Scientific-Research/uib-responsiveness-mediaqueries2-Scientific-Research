@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+main {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+li {
+  margin: 10px;
+}
+
+/* Smartphone XL*/
+@media screen and (min-width: 426px) {
+  main {
+    /* border-color: green; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    color: green;
+    margin: 10px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) {
+  main {
+    /* border-color: green; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    color: blue;
+    margin: 20px;
+    padding: 5px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1441px) {
+  main {
+    /* border-color: green; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    color: red;
+    background-color: yellow;
+  }
+  li::first-letter {
+    font-size: 200%;
+    color: #8a2be2;
+  }
+}
